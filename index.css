@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar-container {
+  display: flex;
+  margin: 10px;
+}
+
+.nav-bar-container .nav {
+  display: flex;
+  justify-content: right;
+}
+.nav-bar-container nav {
+  display: flex;
+}
+
+.nav-bar-container nav ul {
+  display: flex;
+  list-style: none;
+  border: 1px solid red;
+}
+.nav-bar-container nav ul li {
+  height: fit-content;
+}
