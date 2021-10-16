@@ -4,24 +4,41 @@
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0px 25px;
+}
 .nav-bar-container {
   display: flex;
-  margin: 1px;
+  align-items: center;
+  padding: 10px;
 }
 
 .nav-bar-container .nav {
   display: flex;
-  justify-content: right;
+  flex: 1;
 }
 .nav-bar-container nav {
   display: flex;
+  width: 100%;
+  border: 1px solid blue;
 }
 
 .nav-bar-container nav ul {
-  display: flex;
-  list-style: none;
+  display: inline-block;
+  width: 100%;
+
+  text-align: right;
   border: 1px solid red;
 }
 .nav-bar-container nav ul li {
   height: fit-content;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.col2 img {
+  max-width: 100%;
+  padding: 50px 0;
 }
