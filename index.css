@@ -28,15 +28,12 @@ body {
 .nav-bar-container nav {
   display: flex;
   width: 100%;
-  border: 1px solid blue;
 }
 
 .nav-bar-container nav ul {
   display: inline-block;
   width: 100%;
-
   text-align: right;
-  border: 1px solid red;
 }
 .nav-bar-container nav ul li {
   height: fit-content;
@@ -72,8 +69,7 @@ a {
   line-height: 60px;
   margin: 25px 0;
 }
-
-.col2 .explore-button {
+.explore-button {
   display: inline-block;
   margin: 20px;
   padding: 8px 30px;
@@ -171,4 +167,27 @@ h4 {
 
 small {
   color: #555;
+  display: block;
+}
+
+/*-------testimonial------*/
+.testimonial {
+  padding-top: 100px;
+}
+
+.testimonial .col-3 {
+  text-align: center;
+  padding: 40px 20px;
+  transition: transform 0.5s;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.testimonial .col-3 img {
+  width: 50px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+.col-3:hover {
+  transform: translateY(-5px);
 }
