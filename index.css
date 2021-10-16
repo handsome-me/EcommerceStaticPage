@@ -51,7 +51,7 @@ a {
   text-decoration: none;
   color: #555;
 }
-.header .row {
+.row {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -114,4 +114,50 @@ a {
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
+}
+
+h4 {
+  font-weight: normal;
+  color: #555;
+}
+.col-4 {
+  flex-basis: 25%;
+  min-width: 200px;
+  padding: 10px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+
+.col-4 img {
+  max-width: 100%;
+}
+
+.col-4 p {
+  font-size: 14px;
+}
+
+.feature-product .title {
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+}
+.feature-product .title::after {
+  content: " ";
+  background: #ff523b;
+  height: 5px;
+  width: 80px;
+  bottom: 0;
+  position: absolute;
+  left: 50%;
+  border-radius: 5px;
+  transform: translateX(-50%);
+}
+
+.rating .fa-star {
+  color: #ff523b;
+}
+
+.col-4:hover {
+  transform: translateY(-5px);
 }
